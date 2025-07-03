@@ -13,12 +13,11 @@ plugins: rubocop-performance
 
 AllCops:
   NewCops: enable
+  Exclude:
+    - c_s_g_t_d_s_a/ch14_linked_list_exercises/linked_list.rb
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
 
 Style/FrozenStringLiteralComment:
   EnforcedStyle: never
-
-# AllCops:
-  # Exclude:
