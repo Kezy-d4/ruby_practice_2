@@ -15,6 +15,7 @@ AllCops:
   NewCops: enable
   Exclude:
     - c_s_g_t_d_s_a/ch14_linked_list_exercises/linked_list.rb
+    - c_s_g_t_d_s_a/ch14_linked_list_exercises/doubly_linked_list_based_queue.rb
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
